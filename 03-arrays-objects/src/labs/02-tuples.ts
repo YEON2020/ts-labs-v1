@@ -6,3 +6,10 @@
  */
 
 // TODO: StudentScore 타입 선언, scores 배열 생성, passed 계산
+type StudentScore = [string, number];
+
+let scores: StudentScore[] = [
+  ["안연수", 100],
+  ["SANSAN", 90],
+  ["ENO", 85],
+];
