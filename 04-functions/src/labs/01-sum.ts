@@ -6,3 +6,14 @@
 예시)
 sum([1, 2, 3]) // 6
 */
+
+function sum(numbers: number[]): number {
+  return numbers.reduce((acc, cur) => acc + cur, 0);
+  /*let total = 0;
+  for (const num of numbers) {
+    total += num;
+  }
+  return total;*/
+}
+
+console.log(sum([1, 2, 3]));

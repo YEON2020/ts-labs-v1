@@ -5,6 +5,10 @@ type User = { id: number; name: string; email?: string };
 
 function printUserInfo(user?: User) {
   // 여기에 코드를 작성하세요.
+  if (!user) return;
+
+  if (user.email) {
+  }
 }
 
 // 사용 예시

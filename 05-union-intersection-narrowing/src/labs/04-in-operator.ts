@@ -9,6 +9,12 @@ type Notification = EmailNotification | SmsNotification | PushNotification;
 
 function sendNotification(notif: Notification) {
   // 여기에 코드를 작성하세요.
+  if ("subject" in notif) {
+    // 이메일
+  } else if ("phone" in notif) {
+    //SMS
+  } else {
+  }
 }
 
 // 사용 예시
